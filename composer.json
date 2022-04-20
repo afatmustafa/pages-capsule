@@ -7,7 +7,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Afatmustafa\\PagesCapsule\\": "src"
+      "PagesCapsule\\": "src"
     }
   },
   "extra": {
