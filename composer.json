@@ -1,23 +1,26 @@
 {
-    "name": "afatmustafa/pages-capsule",
-    "description": "This package helps you manage your pages.",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Afatmustafa\\PagesCapsule\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-          "providers": [
-            "PagesCapsule\\PagesCapsuleServiceProvider"
-          ]
-        }
-      },
-    "authors": [
-        {
-            "name": "afatmustafa"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "afatmustafa/pages-capsule",
+  "description": "This package helps you manage your pages.",
+  "type": "library",
+  "require": {
+    "area17/twill": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Afatmustafa\\PagesCapsule\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PagesCapsule\\PagesCapsuleServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "afatmustafa"
+    }
+  ],
+  "minimum-stability": "dev"
 }
